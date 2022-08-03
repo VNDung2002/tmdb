@@ -1,0 +1,335 @@
+
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 559px) {
+    .responsive {
+        display: block;
+    }
+
+
+
+    .header {
+        width: 100%;
+        /* width: 375px; */
+        height: 50px;
+    }
+
+    .nav {
+        padding: 0;
+    }
+
+    .nav>ul {
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav>ul li:nth-child(2) {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav>ul li:nth-child(3) {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
+
+    .nav>ul li {
+        width: calc(100%/3);
+        flex: 1;
+    }
+
+    .nav img {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fi-br-menu-burger {
+        color: #fff;
+        font-size: 25px;
+        margin-left: 10px;
+        height: max-content;
+        display: flex;
+        justify-items: flex-start;
+    }
+
+    .fi-br-search {
+        font-size: 25px;
+        color: blueviolet;
+        display: flex;
+        justify-items: flex-end;
+    }
+
+    .sub_menu1 {
+        display: none;
+    }
+
+    .sub_menu2 {
+        display: none;
+    }
+
+
+    .navigation {}
+
+    #Navigation {
+        margin-top: 50px;
+    }
+
+    .nav2 li a {
+        padding: 0 12px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        background-size: contain;
+        background-image: url(https://i.vietgiaitri.com/2022/1/6/xon-xao-anh-con-cua-conan-va-ran-ban-nguoi-that-nhan-sac-gay-bat-ngo-lon-nhung-giong-bo-hay-me-hon-day-744-6253103.jpg);
+    }
+
+    .navbar h1 {
+        font-size: 18px;
+        position: relative;
+        margin-top: 120px;
+        text-align: center;
+    }
+
+    .navbar .content-img {
+        width: 110px;
+        height: 150px;
+        left: -130px;
+        top: 20px;
+    }
+
+
+    .subitems {
+        display: flex;
+        justify-content: center;
+        padding-left: 50px;
+    }
+
+    .subitems .test {
+        padding-left: 0;
+    }
+
+
+    .subitems h3 {
+        padding-right: 15px;
+
+    }
+
+    .subitems .film {
+        padding-left: 0;
+    }
+
+
+
+    .text-content {
+        display: flex;
+        justify-content: center;
+        margin: 25px 0;
+        padding: 25px;
+        border-radius: 10px;
+        background-color: #ccc;
+    }
+
+
+    .hihi {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .subitems .play {
+        display: block;
+
+    }
+
+
+
+    .test {
+        width: 45px;
+        height: 45px;
+        margin: 0;
+        padding: 0;
+        padding-left: 10px;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .text1  {
+        margin-left: 25px;
+        margin-top: 0;
+        padding: 30px;
+        background-color: rgb(222, 216, 216);
+    }
+
+    .text1 h3 {
+        margin-top: 0;
+    }
+
+    .text2 p{
+    }
+
+    .contents{
+        margin: 10px;
+    }
+
+
+
+
+    /* <......................> */
+    footer {
+        padding: 20px 20px;
+    }
+
+    .head_footer img {
+        display: none;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navbar .items-content {
+        padding-bottom: 0;
+    } 
+
+    .slider{
+        margin: 0;
+    }
+
+    .content3{
+        margin: 0;
+    }
+
+    .slider h3{
+        margin: 0;
+    }
+
+    .name-sider h3{
+        margin: 10px 10px;
+    }
+
+    .slider .movies:first-child{
+        padding: 0;
+    }
+
+    .slider .list-slider{
+        margin-left: 0;
+    }
+
+    .movies img{
+        min-height: 90px;
+        min-width: 80px;
+    }
+
+    .list-slider .movies{
+        padding-top: 0;
+    }
+
+
+    .contents .fullcast {
+        margin:  10px 0;
+    }
+
+    .content3 hr {
+        margin: 10px 0;
+    }
+
+    .Season {
+        margin: 5px;
+        height: 180px;
+    }
+
+
+    .Season img {
+        height: 90px !important;
+        min-width: 110px !important;
+        display: none;
+    }
+
+    .Season1 h3, .Season1 h4, .Season1 p{
+        margin: 5px 5px;
+    }
+
+    .fullcast h3{
+        margin: 0 10px;
+    }
+
+    .fullcast p{
+        margin: 0 10px;
+    }
+
+    .content3 .Media{
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Media h3 {
+        margin-right: 20px;
+    }
+
+    .Popular{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+        /* justify-content: space-between; */
+        /* width: 50%;  */
+    }
+
+    .Popular h3 {
+        font-size: 14px;
+        /* flex: 1; */
+    }
+    
+    .Popular h3:first-child{
+        margin-right: 5px;
+    }
+
+    .Popular .Video{
+        padding-right: 13px;
+    }
+
+    .content3 .img-media{
+        margin: 0;
+    }
+
+    .img-media img:first-child{
+        width: 190px;
+        height: 110px;
+    }
+
+
+    .slider{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner .Status{
+        margin-top: 0;
+    }
+
+
+
+
+
+
+    
+
+    /* .content3 .Media h3:first-child{
+        margin-right: 20px;
+    } */
+}
